@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+    <title>AI Study Assistant</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -10,13 +10,22 @@
 
     <p>Enter your notes below:</p>
 
-<form method="POST">
-    <textarea name="notes" rows="8" cols="50"></textarea>
+    <form method="POST">
 
-    <br><br>
+        <textarea name="notes" rows="8" cols="50" maxlength="2500">{{ notes }}</textarea>
 
-    <button type="submit">Submit</button>
-</form>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Your Note</h2>
+
+    <p>{{ notes }}</p>
+    <p>Character Count: {{lenghtofnotes}}/2500</p>
 
 </body>
 </html>
