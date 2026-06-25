@@ -4,23 +4,37 @@
 
 AI Study Assistant is a web application built with Python and Flask.
 
-The goal of this project is to help students study more efficiently through AI-powered features such as note summarization, quiz generation, and personalized study tools.
+The goal of this project is to help students study more efficiently through AI-powered tools such as note summarization, quiz generation, and personalized learning features.
 
-This project is currently under active development and serves as a long-term learning project focused on web development, artificial intelligence, and software engineering.
+This project is currently in development and serves as a long-term learning project focused on web development, artificial intelligence, and software engineering.
 
 ---
 
 ## Current Features
 
-* Flask web application
-* HTML user interface
-* CSS styling
-* Template rendering with Flask
-* Static file support
-* User note input form
-* Form submission handling with Flask
-* Basic text processing workflow
+### User Interface
+
+* Responsive web interface built with HTML and CSS
+* Clean and organized layout
+* Text area for note submission
+* Character limit for user input
+* Character count display
+
+### Flask Functionality
+
+* Flask web server
+* Routing and template rendering
+* Form handling with POST requests
+* User note submission
+* Dynamic content rendering
+* User notes remain in the text area after submission
+
+### Development Features
+
 * Organized project structure
+* Static file support
+* Template rendering with Jinja2
+* GitHub version control
 
 ---
 
@@ -35,6 +49,7 @@ This project is currently under active development and serves as a long-term lea
 
 * HTML
 * CSS
+* Jinja2 Templates
 
 ### Tools
 
@@ -61,7 +76,6 @@ ai-study-assistant/
 
 ---
 
-
 ## Development Progress
 
 ### Version 0.1 - Foundation
@@ -69,107 +83,83 @@ ai-study-assistant/
 Completed:
 
 * Flask installation and setup
-* Project structure creation
-* Basic website interface
+* Basic routing
 * HTML templates
 * CSS styling
-* Flask routing
 * Static file configuration
 
-### Version 0.2 - User Input System
+### Version 0.2 - User Interaction
 
 Completed:
 
-* Created a note input form
-* Connected HTML forms to Flask
-* Implemented POST requests
-* Received user input using `request.form`
-* Processed submitted text in Python
+* Note submission form
+* POST request handling
+* User input processing
+* Dynamic page updates
+* Character limit implementation
+* Character count display
+* Persistent text area content after submission
 
-Currently Working On:
+Current Status:
 
-* Displaying submitted notes on the webpage
-* Improving page layout
-* Making the application easier to use
+* Working Flask application capable of accepting and displaying user notes
 
 ---
 
 ## Planned Features
 
-### Version 0.3 - Interactive Notes
+### Version 0.3 - AI Integration
 
-Goals:
+Planned:
 
-* Display submitted notes on the webpage
-* Keep the form visible after submission
-* Improve styling and layout
-* Create a cleaner user experience
+* AI API integration
+* Note summarization
+* Key point extraction
+* Summary generation
 
-### Version 0.4 - AI Summarization
+### Version 0.4 - Study Tools
 
-Goals:
+Planned:
 
-* Connect an AI API
-* Generate summaries from submitted notes
-* Display summaries on the webpage
-* Improve text formatting
+* Quiz generation
+* Practice questions
+* Study guide creation
+* Interactive learning tools
 
-### Version 0.5 - Study Questions
+### Version 0.5 - Advanced Features
 
-Goals:
+Planned:
 
-* Generate study questions from notes
-* Create simple quizzes
-* Improve the user interface
-* Refine the overall application
-
----
-
-## Summer 2026 Project Goal
-
-By the end of the project, users should be able to:
-
-1. Enter study notes.
-2. Submit notes through the website.
-3. Receive an AI-generated summary.
-4. Generate study questions from their notes.
-5. Review generated content in a clean interface.
+* Multiple summary styles
+* Export functionality
+* Improved note organization
+* Enhanced user experience
 
 ---
 
-## Future Improvements
+## Learning Goals
 
-Possible future expansions after this project:
-
-* User accounts
-* Database integration
-* Note history
-* Progress tracking
-* Language-learning features
-* More advanced AI study tools
-
-These features are not part of the current summer project but may be explored in future projects as my programming skills improve.
-
-
-## Learning Objectives
-
-This project is helping me learn:
+This project is helping me improve my skills in:
 
 * Python programming
 * Flask development
-* Web development fundamentals
-* Frontend and backend communication
-* Form handling and user input
-* Software engineering practices
+* Web development
+* Software engineering
 * Artificial intelligence integration
+* Project planning
+* GitHub workflow
 
 ---
 
-## Why I Built This Project
+## Future Vision
 
-I created this project to improve my programming skills and gain hands-on experience building real web applications.
+The long-term goal is to transform this project into a complete AI-powered study assistant capable of:
 
-Rather than following tutorials alone, I am developing this project step-by-step while learning Flask, web development, and AI technologies.
+* Summarizing notes
+* Generating quizzes
+* Creating study guides
+* Supporting active learning
+* Helping students review information more efficiently
 
 ---
 
@@ -178,5 +168,3 @@ Rather than following tutorials alone, I am developing this project step-by-step
 Deniz Ayalp
 
 Created in 2026.
-
-Current Status: In Development 🚀
