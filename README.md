@@ -37,9 +37,6 @@ Completed:
 ---
 
 **Current Version:** **1.0**
-
----
-
 ## Features
 
 ### AI Features
